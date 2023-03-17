@@ -1,0 +1,88 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+    align-content: flex-start;
+}
+
+nav {
+        background-color: #f8f9fa;
+        border-bottom: 1px solid #d6d8db;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+      }
+      
+      nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav li {
+        margin-right: 20px;
+      }
+      
+      nav a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      
+      nav a:hover {
+        text-decoration: underline;
+      }
+section {
+  padding: 20px;
+}
+
+.problem {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.problem h2 {
+  margin-top: 0;
+}
+
+.problem .sold {
+  color: green;
+  font-weight: bold;
+}
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+footer ul li {
+display: inline-block;
+margin-right: 20px;
+}
+
+footer ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+footer ul li a:hover {
+color: #f8f9fa;
+}
